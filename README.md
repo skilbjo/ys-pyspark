@@ -14,6 +14,7 @@ c.NotebookApp.port = 8888
 c.NotebookApp.ip = 'localhost'
 ````
 
+## Add the necessary environment variables to your `PATH` 
 ````bash
 $ vim ~/.bash_profile
 
@@ -37,5 +38,7 @@ alias hstop="/usr/local/Cellar/hadoop/2.7.1/sbin/stop-yarn.sh;/usr/local/Cellar/
 
 ````
 		
-Start the notebook!
+## Start the notebook!
+````
 		$ ipython notebook --profile=spark
+````
