@@ -1,12 +1,13 @@
 # ys-pyspark
 
 ## Start
+Create your `virtualenv` profile, install libraries:
 
 ````shell
-		$ workon data
-		$ pip -r requirements.txt
-		$ ipython profile create spark
-		$ vim subl ~/.ipython/profile_spark/ipython_notebook_config.py 
+$ workon data
+$ pip -r requirements.txt
+$ ipython profile create spark
+$ vim subl ~/.ipython/profile_spark/ipython_notebook_config.py 
 ````
 
 ````python
@@ -14,7 +15,7 @@ c.NotebookApp.port = 8888
 c.NotebookApp.ip = 'localhost'
 ````
 
-## Add the necessary environment variables to your `PATH` 
+## Add the env variables to your `PATH` 
 ````bash
 $ vim ~/.bash_profile
 
